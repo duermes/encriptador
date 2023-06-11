@@ -1,0 +1,74 @@
+
+
+.titulo {
+    font-size: 30px;
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+.cuadritos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuadro {
+    display: inline-block;
+    width: 55%;
+    margin-right: 20%;
+}
+
+.form1 {
+    display: inline-block;
+    width: 55%;
+}
+
+#cuadro {
+    padding-bottom: 35%;
+    width: 20cm;
+}
+
+#mensaje {
+    line-height: 150%;
+    padding: 5px;
+}
+
+#imagen {
+    height: 16px;
+}
+
+.botones {
+    text-align: center;
+    width: 20cm;
+    margin-top: 1em;
+}
+
+#encriptar {
+ width: 7cm;
+ display: inline-block;
+}
+
+/* Para el formulario2 */
+
+.form2{
+    display: inline-block;
+    width: 45%;
+}
+
+.cuadro2 {
+    display: inline-block;
+    width: 45%;
+
+}
+
+#cuadro2 {
+    width: 10cm;
+    padding-bottom: 16cm;
+    background-image: url(Muñeco.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    resize: none;
+}
