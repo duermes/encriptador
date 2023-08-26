@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="es" id = "todo">
 <head>
     <meta charset="UTF-8">
     <title>Encriptador</title>
+    <link rel="stylesheet" type="text/css" href="/particles.js/demo/css/style.css"> 
     <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="particles.js/"></script>
 </head>
 <body>
-<header class="titulo">
-    Encriptador: Crea tu propio mensaje secreto
-</header>
-
-<div class="cuadritos">
-    <div class="cuadro">
-            <input id ="cuadro"type="text" placeholder="Ingrese su texto aqui">
-        <div id="mensaje">
-            <img src="ex.png" alt="Signo de exclamación" id="imagen">
-            Solo letras minúsculas y sin acentros 
-            <div class="botones">
-                <input id="encriptar" type="submit" value="Encriptar">
-                <input id="encriptar" type="submit" value="Desencriptar">
+    <header class="titulo">
+    <strong>Encriptador: Crea tu propio mensaje secreto</strong>
+    </header>      
+        <div class="cuadritos">
+            <div class="cuadro">
+                    <input id ="cuadro"type="text" placeholder="Ingrese su texto aqui">
+                <div id="mensaje">
+                    <img src="ex.png" alt="Signo de exclamación" id="imagen">
+                    Solo letras minúsculas y sin acentros 
+                    <div class="botones">
+                        <input id="encriptar" type="submit" value="Encriptar" onclick= "encriptar()">
+                        <input id="desencriptar" type="submit" value="Desencriptar" onclick="desencriptar()">
+                    </div>
+                </div>
             </div>
+            
+        <div class="cuadro2">
+            <textarea readonly id ="cuadro2"></textarea>
         </div>
-    </div>
-
-    
-    <div class="cuadro2">
-        <textarea readonly id ="cuadro2"></textarea>
-    </div>
-</div>
-
-<script src="main.js"></script>
+        
+            
+     </div>     
 </body>
+
 <footer>
 </footer>
 </html>

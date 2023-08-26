@@ -1,9 +1,30 @@
 
+#todo { 
+
+    background-image: url(/back2.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo, .cuadro {
+    padding-left: 1em;
+}
+
+#cuadro, #cuadro2, #encriptar, #desencriptar {
+    border-radius: 13px;
+}
 
 .titulo {
     font-size: 30px;
+    padding-top: 10px;
     padding-bottom: 1em;
     display: inline-block;
+    color: azure;
 }
 
 .cuadritos {
@@ -25,6 +46,8 @@
 #cuadro {
     padding-bottom: 35%;
     width: 20cm;
+    background-color: #9E9E9E;
+    opacity: 40%;
 }
 
 #mensaje {
@@ -40,11 +63,17 @@
     text-align: center;
     width: 20cm;
     margin-top: 1em;
+    
 }
 
-#encriptar {
+#encriptar, #desencriptar {
  width: 7cm;
  display: inline-block;
+ padding: 10px;
+ background-color: #615E5E;
+ font-family: 'Montserrat', sans-serif;
+ 
+
 }
 
 /* Para el formulario2 */
@@ -56,17 +85,19 @@
 
 .cuadro2 {
     display: inline-block;
-    width: 45%;
+    padding-right: 22px;
 
 }
 
 #cuadro2 {
     width: 10cm;
     padding-bottom: 16cm;
-    background-image: url(Muñeco.png);
+    background-image: url(stars.png);
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
+    background-color: #9E9E9E;
+    opacity: 40%;
 }
 
 textarea {
